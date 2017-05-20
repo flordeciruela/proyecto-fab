@@ -1,5 +1,11 @@
-@media screen and (min-width:960px){
-  a img{
+.yellow{
+  position:fixed;
+  bottom:20px;
+  right:25px;
+}
+
+@media screen and (min-width:760px){
+  div.column-block a img{
     height: 80vh;
   }
 }
