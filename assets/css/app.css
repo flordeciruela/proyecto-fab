@@ -1,5 +1,19 @@
+@font-face {
+   font-family: 'neutra-book';
+   src: url(../fonts/Neutra_Text_Book.otf);
+}
+
+* {
+  font-family: 'neutra-book', helvetica;
+  color: black !important;
+}
+
+.font-min-size {
+  font-size: 13px;
+}
+
 /*Header*/
-.mobile-nav-bar {
+.mobile-nav-bar * {
   background-color: #fff;
 }
 
@@ -15,16 +29,19 @@
   text-decoration: none;
   position: relative;
   display: inline-block;
-  transition: all ease 0.4s;
 }
 
 .badge {
   position: absolute;
-  top: -5px;
-  right: -5px;
-  font-size: .4em;
+  top: -2px;
+  right: -9px;
+  font-size: .45em;
 }
 
 header .fa {
-  color: gray;
+  color: gray !important;
+}
+
+.body h1 {
+  background-color: gray;
 }
