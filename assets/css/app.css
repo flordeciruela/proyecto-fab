@@ -1,0 +1,30 @@
+/*Header*/
+.mobile-nav-bar {
+  background-color: #fff;
+}
+
+.mobile-nav-bar a {
+  color: #fefefe;
+}
+
+.top-bar-center {
+  display: inline-block;
+}
+/*icon candado*/
+.button-badge {
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  transition: all ease 0.4s;
+}
+
+.badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  font-size: .4em;
+}
+
+header .fa {
+  color: gray;
+}
