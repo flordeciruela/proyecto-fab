@@ -3,22 +3,30 @@
    src: url(../fonts/Neutra_Text_Book.otf);
 }
 
-* {
+*, h4, input {
   font-family: 'neutra-book', helvetica;
   color: black !important;
+}
+
+.background-black {
+  background-color: black;
 }
 
 .font-min-size {
   font-size: 13px;
 }
 
+.text-white, .text-white * {
+  color: #fff !important;
+}
+
+.text-gray, .text-gray * {
+  color: gray !important;
+}
+
 /*Header*/
 .mobile-nav-bar * {
   background-color: #fff;
-}
-
-.mobile-nav-bar a {
-  color: #fefefe;
 }
 
 .top-bar-center {
@@ -36,8 +44,4 @@
   top: -2px;
   right: -9px;
   font-size: .45em;
-}
-
-header .fa {
-  color: gray !important;
 }
