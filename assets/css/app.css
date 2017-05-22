@@ -13,7 +13,11 @@
 }
 
 .font-min-size {
-  font-size: 13px;
+  font-size: 0.7em;
+}
+
+.light-bold * {
+	font-weight: 600;
 }
 
 .text-white, .text-white * {
@@ -22,6 +26,10 @@
 
 .text-gray, .text-gray * {
   color: gray !important;
+}
+
+hr {
+	max-width: none;
 }
 
 /*Header*/
