@@ -25,7 +25,7 @@
 }
 
 /*Header*/
-.mobile-nav-bar * {
+.mobile-nav-bar *, header {
   background-color: #fff;
 }
 
