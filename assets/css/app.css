@@ -1,0 +1,6 @@
+.slick-prev, .slick-next{
+  z-index: 1;
+}
+.container{
+  margin-left: 23px;
+}
