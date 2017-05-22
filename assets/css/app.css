@@ -3,7 +3,7 @@
    src: url(../fonts/Neutra_Text_Book.otf);
 }
 
-*, h4, input {
+*, h5, input {
   font-family: 'neutra-book', helvetica;
   color: black !important;
 }
@@ -52,4 +52,15 @@ hr {
   top: -2px;
   right: -9px;
   font-size: .45em;
+}
+
+/*Footer*/
+#social-icons .fa {
+	font-size: 1.6em;
+	margin-right: 3px;
+}
+
+#social-icons img {
+	width: 41%;
+	margin-bottom: 5px;
 }
