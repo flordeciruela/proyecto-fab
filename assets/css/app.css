@@ -1,3 +1,4 @@
+
 @font-face {
    font-family: 'neutra-book';
    src: url(../fonts/Neutra_Text_Book.otf);
@@ -189,4 +190,11 @@ input[type="email"] {
     .large-uncentered {
     	text-align: left;
     }
+
+.slick-prev, .slick-next{
+  z-index: 1;
+}
+
+#carrousel .container{
+  margin-left: 23px;
 }
