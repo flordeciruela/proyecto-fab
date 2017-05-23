@@ -55,6 +55,14 @@ hr {
   line-height: 10px;
 }
 /*Header*/
+#header, header {
+	margin: 0 !important;
+	z-index: 5 !important;
+	position: fixed !important;
+	width: 100% !important;
+	top: 0;
+}
+
 .mobile *, header {
   background-color: #fff;
 }
@@ -191,10 +199,10 @@ input[type="email"] {
     	text-align: left;
     }
 
-.slick-prev, .slick-next{
+.slick-prev, .slick-next {
   z-index: 1;
 }
 
-#carrousel .container{
+#carrousel .container {
   margin-left: 23px;
 }
