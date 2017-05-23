@@ -206,3 +206,67 @@ input[type="email"] {
 #carrousel .container {
   margin-left: 23px;
 }
+
+section#categorias{
+  position: relative;
+  top: 153px;
+}
+
+.yellow{
+  position:fixed;
+  bottom:20px;
+  right:15px;
+}
+
+.red{
+  background-color: #e54b4d;
+}
+
+.white{
+  background-color: white;
+}
+
+.l{
+  position:fixed;
+  bottom:20px;
+  left:30px;
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  cursor:pointer;
+}
+
+.m{
+  position: absolute;
+  top:5px;
+  left:5px;
+  width:40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.sm{
+  position: absolute;
+  top:2.5px;
+  left:2.5px;
+  width:35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+div.red.sm span{
+  position:absolute;
+  top:10px;
+  right:-10px;
+}
+
+@media screen and (min-width:760px){
+  div.column-block a img{
+    height:90vh;
+  }
+
+  section#categorias div.column-img{
+    padding-right: 0.4rem;
+    margin-bottom: 1rem;
+  }
+}
