@@ -5,6 +5,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foundation</title>
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/foundation.css">
     <link rel="stylesheet" href="assets/css/app.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
@@ -12,26 +13,26 @@
   </head>
   <body>
 
-		<div data-sticky-container>
+		<section data-sticky-container>
 			<header class="row sticky" data-sticky data-sticky data-options="anchor: page; marginTop: 0; stickyOn: small;">
 				<div class="font-min-size small-12 columns background-black">
-					<div class="top-bar-left text-white">
+					<div class="margin top-bar-left text-white">
 						<span>FREE SHIPPING above $75*</span>
 					</div>
-					<div class="top-bar-right">
+					<div class="margin top-bar-right">
 						<ul class="menu text-white">
 							<li>Ship To:</li>
 							<li><img src="assets/img/us.png" aria-hidden="true" width="12px"></li>
-							<li><i class="fa fa-phone" aria-hidden="true"></i><span class="hide-for-small-only"> 1-855-767-7FAB (1-855-767-7322)</span></li>
+							<li><i class="fa fa-phone" aria-hidden="true"></i><span class="number-font hide-for-small-only"> 1-855-767-7FAB (1-855-767-7322)</span></li>
 							<li><i class="fa fa-envelope"></i><span class="hide-for-small-only"> Email Us</span></li>
 						</ul>
 					</div>
 				</div>
-				<div class="mobile-nav-bar menu-centered small-12 columns hide-for-large">
+				<div class="mobile small-12 columns hide-for-large">
 					<div class="top-bar top-bar-left text-gray">
 						<a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
 					</div>
-					<div class="top-bar-center align-center">
+					<div class="top-bar-center">
 						<img src="assets/img/fab_logo_3_0.png" alt="Logo" width="55px">
 					</div>
 					<div class="top-bar top-bar-right">
@@ -39,27 +40,27 @@
 						<a href="#" class="button-badge"><i class="fa fa-shopping-bag text-gray" aria-hidden="true"></i><span class="badge alert text-white">1</span></a>
 					</div>
 				</div>
-				<div class="row hide-for-small-only">
-					<div class="large-12 columns space-between">
-						<div class="columns large-6">
-							<div class="input-group">
-								<img src="assets/img/fab_logo_3_0.png" alt="Logo" width="100px">
-							 	<span class="input-group-label"><i class="fa fa-search text-gray"></i></span>
-							  <input class="input-group-field" type="text" placeholder="What are you shopping for?">
-								<span class="input-group-label"><i class="fa fa-search text-gray"></i></span>
-							</div>
+				<div class="up-menu row hide-for-small-only">
+					<div class="large-12 columns">
+						<div class="float-left">
+              <img src="assets/img/fab_logo_3_0.png" alt="Logo" width="100px">
+              <div class="buscar">
+                <div class="search left align-self-middle"><i class="fa fa-search"></i></div>
+                <input type="text" value="What are you shopping for?">
+                <div class="search right"><i class="fa fa-smile-o"></i></div>
+              </div>
 						</div>
-						<div class="text-gray float-right">
-							<a href="#">Fab Insider</a>
-							<a href="#">Registry</a>
-							<a href="#"><i class="fa fa-shopping-bag"></i></a>
-							<a href="#">Login</a>
+						<div class="float-right">
+							<a href="#" class="fab-insider"><span class="text-gray">Fab Insider</span><span class="badge new text-white">NEW</span></a>
+							<a href="#" class="text-gray">Registry</a>
+							<a href="#" class="button-badge"><i class="fa fa-shopping-bag text-gray" aria-hidden="true"></i><span class="badge alert text-white">1</span></a>
+							<a href="#" class="text-gray ">Login</a>
 						</div>
 					</div>
 				</div>
 				<nav class="large-12 columns hide-for-small-only">
 					<ul class="menu expanded menu-centered light-bold">
-						<li><a href="#">NEW ARRIVALS</a></li>
+						<li><a class="" href="#">NEW ARRIVALS</a></li>
 						<li><a href="#">ART</a></li>
 						<li><a href="#">HOME</a></li>
 						<li><a href="#">WOMEN</a></li>
@@ -72,13 +73,13 @@
 					</ul>
 				</nav>
 			</header>
-		</div>
+		</section>
 
-		<section class="row">
+		<section>
 			<hr>
 			<nav class="row">
 				<div class="small-12 columns text-center large-uncentered">
-					<ul class="menu simple font-min-size">
+					<ul class="menu simple">
 						<li><a href="#">About</a></li>
 						<li><a href="#">Gift Cards</a></li>
 						<li><a href="#">Careers</a></li>
@@ -93,17 +94,17 @@
 			</nav>
 			<hr class="hide-for-small-only">
 			<nav class="row">
-				<div id="departments" class="row large-3 columns">
+				<div id="departments" class="row large-3 columns float-left">
 					<div class="small-12 columns">
 						<h5 class="small-12 columns light-bold">DEPARTMENTS</h5>
-						<div class="small-6 large-12 columns font-min-size">
+						<div class="small-6 large-12 columns">
 							<a href="#">Art</a>
 						</div>
-						<div class="small-6 large-12 columns font-min-size">
+						<div class="small-6 large-12 columns">
 							<a href="#">Home</a>
 						</div>
 					</div>
-					<div class="small-12 large-12 columns font-min-size">
+					<div class="small-12 large-12 columns">
 						<div class="small-6 large-12 columns">
 							<a href="#">Women</a>
 						</div>
@@ -111,7 +112,7 @@
 							<a href="#">Men</a>
 						</div>
 					</div>
-					<div class="small-12 large-12 columns font-min-size">
+					<div class="small-12 large-12 columns">
 						<div class="small-6 large-12 columns">
 							<a href="#">Tech</a>
 						</div>
@@ -120,93 +121,93 @@
 						</div>
 					</div>
 				</div>
-				<div id="most-popular-categories" class="large-9 columns">
+				<div id="most-popular-categories" class="large-9 columns float-right">
 					<div class="row">
 						<div class="small-12 columns">
 							<h5 class="small-12 columns light-bold">MOST POPULAR CATEGORIES</h5>
 						</div>
 						<div class="large-6 columns">
-							<div class="small-6 columns font-min-size">
+							<div class="small-6 columns">
 								<a href="#">Jewelry</a>
 							</div>
-							<div class="small-6 columns font-min-size">
+							<div class="small-6 columns">
 								<a href="#">Storage &amp; Organization</a>
 							</div>
 						</div>
 						<div class="large-6 columns">
-							<div class="small-6 columns font-min-size">
+							<div class="small-6 columns">
 								<a href="#">Women's Accessories</a>
 							</div>
-							<div class="small-6 columns font-min-size">
+							<div class="small-6 columns">
 								<a href="#">Pillows &amp; Throws</a>
 							</div>
 						</div>
 						<div class="large-6 columns">
-							<div class="small-6 columns font-min-size">
+							<div class="small-6 columns">
 								<a href="#">Unframed Prints</a>
 							</div>
-							<div class="small-6 columns font-min-size">
+							<div class="small-6 columns">
 								<a href="#">Men's Accessories</a>
 							</div>
 						</div>
 						<div class="large-6 columns">
-							<div class="small-6 columns font-min-size">
+							<div class="small-6 columns">
 								<a href="#">Headphones &amp; Earbuds</a>
 							</div>
-							<div class="small-6 columns font-min-size">
+							<div class="small-6 columns">
 								<a href="#">Canvas</a>
 							</div>
 						</div>
 						<div class="large-6 columns">
-							<div class="small-6 columns font-min-size">
+							<div class="small-6 columns">
 								<a href="#">Toys, Games &amp; Craft Kits</a>
 							</div>
-							<div class="small-6 columns font-min-size">
+							<div class="small-6 columns">
 								<a href="#">Phone &amp; Tablet Accessories</a>
 							</div>
 						</div>
 						<div class="large-6 columns">
-							<div class="small-6 columns font-min-size">
+							<div class="small-6 columns">
 								<a href="#">Men's Apparel</a>
 							</div>
-							<div class="small-6 columns font-min-size">
+							<div class="small-6 columns">
 								<a href="#">Bed &amp; Bath</a>
 							</div>
 						</div>
 						<div class="large-6 columns">
-							<div class="small-6 columns font-min-size">
+							<div class="small-6 columns">
 								<a href="#">Home Accents</a>
 							</div>
-							<div class="small-6 columns font-min-size">
+							<div class="small-6 columns">
 								<a href="#">Smart Home Gadgets</a>
 							</div>
 						</div>
 						<div class="large-6 columns">
-							<div class="small-6 columns font-min-size">
+							<div class="small-6 columns">
 								<a href="#">Earrings</a>
 							</div>
-							<div class="small-6 columns font-min-size">
+							<div class="small-6 columns">
 								<a href="#">Kitchen Tools &amp; Organization</a>
 							</div>
 						</div>
 						<div class="large-6 columns">
-							<div class="small-6 columns font-min-size">
+							<div class="small-6 columns">
 								<a href="#">Dining &amp; Entertaining</a>
 							</div>
-							<div class="small-6 columns font-min-size">
+							<div class="small-6 columns">
 								<a href="#">Necklaces</a>
 							</div>
 						</div>
 						<div class="large-6 columns">
-							<div class="small-6 columns font-min-size">
+							<div class="small-6 columns">
 								<a href="#">Lighting</a>
 							</div>
-							<div class="small-6 columns font-min-size">
+							<div class="small-6 columns">
 								<a href="#">Photography</a>
 							</div>
 						</div>
 						<div class="large-6 columns large-pull-6">
-							<div class="small-6 columns font-min-size">
+							<div class="small-6 columns">
 								<a href="#">Adult Shop</a>
 							</div>
 						</div>
@@ -216,11 +217,11 @@
 			<hr>
 		</section>
     <footer class="row">
-      <div class="small-12 columns font-min-size light-bold large-4 columns">
+      <div class="small-12 columns light-bold large-4 columns">
         <p>QUESTIONS?</p>
         <p>EMAIL US AT: SUPPORT@FAB.COM</p>
-        <p><i>or get in touch with Fab team at:</i></p>
-        <p>1-855-767-7FAB (1-855-767-7322)</p>
+        <p><i class="font-medium-size">or get in touch with Fab team at:</i></p>
+        <p class="number-font">1-855-767-7FAB (1-855-767-7322)</p>
       </div>
 			<div class="large-4 columns expanded" id="social-icons">
 				<div class="small-12 columns">
@@ -236,16 +237,14 @@
 			<div class="large-4 columns">
 				<div class="small-12 columns">
 					<p class="light-bold">New to Fab? Register now and get 10% off*</p>
-					<p class="font-min-size">Plus get the inside scoop on exclusive stuff, offers and more!</p>
+					<p class="font-medium-size">Plus get the inside scoop on exclusive stuff, offers and more!</p>
 				</div>
 				<form class="small-12 columns">
 					<div class="row">
 						<div class="small-12 columns">
 							<input class="input-group-field" type="email" placeholder="YOUR EMAIL">
-						</div>
-						<div class="small-12 columns">
-							<input type="submit" class="button background-black text-white" value="Continue">
-							<p class="font-min-size">*New customers only. Offer lasts 30 days. See Terms <i class="fa fa-question-circle" aria-hidden="true"></i></p>
+              <input type="submit" class="button background-black text-white" value="Continue">
+              <p class="font-min-size">*New customers only. Offer lasts 30 days. See Terms <i class="fa fa-question-circle" aria-hidden="true"></i></p>
 						</div>
 					</div>
 				</form>
