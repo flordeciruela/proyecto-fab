@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/ico">
     <title>Foundation</title>
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/foundation.css">
@@ -13,6 +12,7 @@
     <link rel="icon" href="assets\img\favicon.ico">
     <link rel="stylesheet" type="text/css" href="assets/css/slick.css"/>
     <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css"/>
+    <link rel="stylesheet" href="assets/fontsMb/style.css">
     <link rel="stylesheet" href="assets/font/flaticon.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/hint.css/2.5.0/hint.min.css">
   </head>
@@ -58,14 +58,15 @@
 						<div class="float-right">
 							<a href="#" class="fab-insider"><span class="text-gray">Fab Insider</span><span class="badge new text-white">NEW</span></a>
 							<a href="#" class="text-gray">Registry</a>
-							<a href="#" class="button-badge"><i class="fa fa-shopping-bag text-gray" aria-hidden="true"></i><span class="badge alert text-white">1</span></a>
+							<a id="carBag" class="button-badge"><i class="fa fa-shopping-bag text-gray" aria-hidden="true"></i><span class="badge alert text-white">1</span></a>
 							<a href="#" class="text-gray ">Login</a>
+
 						</div>
 					</div>
 				</div>
 				<nav class="large-12 columns hide-for-small-only">
 					<ul class="menu expanded menu-centered light-bold">
-						<li><a class="" href="#">NEW ARRIVALS</a></li>
+						<li><a href="#">NEW ARRIVALS</a></li>
 						<li><a href="#">ART</a></li>
 						<li><a href="#">HOME</a></li>
 						<li><a href="#">WOMEN</a></li>
@@ -330,6 +331,7 @@
 			</nav>
 			<hr>
 		</section>
+<<<<<<< HEAD
     <footer class="row">
       <div class="small-12 columns light-bold large-4 columns">
         <p>QUESTIONS?</p>
@@ -359,13 +361,86 @@
               <input class="input-group-field" type="email" placeholder="YOUR EMAIL">
               <input type="submit" class="button background-black text-white" value="Continue">
               <p class="font-min-size">*New customers only. Offer lasts 30 days. See Terms <i class="fa fa-question-circle" aria-hidden="true"></i></p>
-            </div>
+=======
+    <aside id="asideCar">
+      <div class="car">
+        <header class="header-car">
+          <h4 class="title text-white text-center">My Bag</h4>
+          <button class="cart-close-btn text-white" type="button" id="close-cart">
+          <i class="fa fa-angle-right fa-2x"></i>
+          </button>
+        </header>
+        <div class="cart-sidebar-body">
+          <div class="free">
+            <i class="icon-truck"></i><span>FREE SHIPPING on orders above $75*</span>
           </div>
+          <div class="shop">
+            <div class="candado">
+              <i class="icon-lock"></i>
+              <p class="lock-text">You have no items in your bag</p>
+>>>>>>> aside-car
+            </div>
+            <a class="shopMore">Shop More<i class="fa fa-angle-right fa-2x text-white shop"></i></a>
+          </div>
+<<<<<<< HEAD
         </form>
       </div>
     </footer>
 
     </section>
+=======
+        </div>
+        <footer class="cart-footer">
+          <div class="foot">
+              <a id="showPaymentOverlay" href="#" class="btn btn-black disabled ">
+                <div class="dIB rightBigArrowIcon text-white">
+                  <span class="dIB">Checkout</span>
+                  <i class="fa fa-angle-right"></i>
+                </div>
+              </a>
+          </div>
+        </footer>
+      </div>
+      <div class="asideActive"></div>
+    </aside>
+    <footer class="row">
+      <div class="small-12 columns font-min-size light-bold large-4 columns">
+        <p>QUESTIONS?</p>
+        <p>EMAIL US AT: SUPPORT@FAB.COM</p>
+        <p><i>or get in touch with Fab team at:</i></p>
+        <p>1-855-767-7FAB (1-855-767-7322)</p>
+      </div>
+			<div class="large-4 columns expanded" id="social-icons">
+				<div class="small-12 columns">
+					<img src="assets/img/App_Store_135x40.svg" alt="apple-store">
+				</div>
+				<div class="small-12 columns">
+					<i class="fa fa-twitter-square" aria-hidden="true"></i>
+					<i class="fa fa-facebook-square" aria-hidden="true"></i>
+					<i class="fa fa-pinterest-square" aria-hidden="true"></i>
+					<i class="fa fa-instagram" aria-hidden="true"></i>
+				</div>
+			</div>
+			<div class="large-4 columns">
+				<div class="small-12 columns">
+					<p class="light-bold">New to Fab? Register now and get 10% off*</p>
+					<p class="font-min-size">Plus get the inside scoop on exclusive stuff, offers and more!</p>
+				</div>
+				<form class="small-12 columns">
+					<div class="row">
+						<div class="small-12 columns">
+							<input class="input-group-field" type="email" placeholder="YOUR EMAIL">
+						</div>
+						<div class="small-12 columns">
+							<input type="submit" class="button background-black text-white" value="Continue">
+							<p class="font-min-size">*New customers only. Offer lasts 30 days. See Terms <i class="fa fa-question-circle" aria-hidden="true"></i></p>
+						</div>
+					</div>
+				</form>
+			</div>
+    </footer>
+
+>>>>>>> aside-car
     <script src="assets/js/vendor/jquery.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script type="text/javascript" src="assets/js/vendor/slick.js"></script>
