@@ -272,6 +272,8 @@ div.img-bag img{
 
 div#bag-compra{
   display:none;
+  overflow: auto;
+  height: 70vh;
 }
 
 /*Footer*/
@@ -392,7 +394,7 @@ div.red.sm span{
 
 @media screen and (min-width:760px){
   div.column-block a img{
-    height:90vh;
+    height:80vh;
   }
 
   section#categorias div.column-img{

@@ -73,22 +73,10 @@ more.addEventListener('click',cierra);
 //compra
 
 var carrusel=document.getElementById('carrousel');
-var bag=document.getElementById('bag-compra');
+// var bag=document.getElementById('bag-compra');
 var shopp=document.getElementsByClassName('shop')[0];
 var imgprod=document.getElementById('img01');
 var priceprod=document.getElementById('price');
-
-function agregar(event){
-  if(event.target.tagName=="IMG"){
-    console.log(event.target.src);
-    console.log(event.target.alt);
-    compra();
-    bag.style.display="block";
-    imgprod.src=event.target.src;
-    priceprod.innerHTML=event.target.alt;
-    shopp.style.display="none";
-    }
-}
 
 var bagArray=[];
 
@@ -100,10 +88,30 @@ function Objeto(src,price){
 function bolsa(event){
   var objeto=new Objeto(event.target.src,event.target.alt);
   bagArray.push(objeto);
-  console.log(bagArray);
-  console.log(bagArray[0].price);
-  console.log(bagArray.length);
+  if(event.target.tagName=="IMG"){
+    var bag=document.getElementById('bag-compra');
+    console.log(event.target.src);
+    console.log(event.target.alt);
+    compra();
+    bag.style.display="block";
+    shopp.style.display="none";
+    var tamano=bagArray.length;
+    for(var i=tamano-1; i<tamano;i++){
+      var div1=document.createElement('div');
+      div1.className="img-bag";
+      var img1=document.createElement('img');
+      img1.src=bagArray[i].src;
+      var span1=document.createElement('span');
+      span1.innerHTML="El precio es "+ bagArray[i].price;
+
+      div1.appendChild(img1);
+      div1.appendChild(span1);
+      bag.appendChild(div1);
+    }
+    console.log(bagArray);
+    console.log(bagArray[0].price);
+    console.log(bagArray.length);
+}
 }
 
-carrusel.addEventListener('click',agregar);
 carrusel.addEventListener('click',bolsa);
