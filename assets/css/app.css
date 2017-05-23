@@ -158,7 +158,7 @@ aside{
 
 div.asideActive{
   width:100%;
-  height: 100vh;
+  height: 3400px;
   position: absolute;
   top:0;
   left:0;
@@ -264,6 +264,16 @@ div.foot{
   text-align: center;
 }
 
+div.img-bag img{
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+
+div#bag-compra{
+  display:none;
+}
+
 /*Footer*/
 #social-icons .fa {
 	font-size: 1.6em;
@@ -321,6 +331,11 @@ input[type="email"] {
   margin-left: 23px;
 }
 
+section#carrousel, footer.row-end, .nav-dep-most{
+  position: relative;
+  top: 173px;
+}
+
 section#categorias{
   position: relative;
   top: 153px;
@@ -329,7 +344,8 @@ section#categorias{
 .yellow{
   position:fixed;
   bottom:20px;
-  right:15px;
+  right:0;
+  z-index: 15;
 }
 
 .red{

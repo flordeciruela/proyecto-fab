@@ -69,3 +69,41 @@ cerrar.addEventListener('click',cierra);
 car.addEventListener('click', compra);
 overlay.addEventListener('click',cierra);
 more.addEventListener('click',cierra);
+
+//compra
+
+var carrusel=document.getElementById('carrousel');
+var bag=document.getElementById('bag-compra');
+var shopp=document.getElementsByClassName('shop')[0];
+var imgprod=document.getElementById('img01');
+var priceprod=document.getElementById('price');
+
+function agregar(event){
+  if(event.target.tagName=="IMG"){
+    console.log(event.target.src);
+    console.log(event.target.alt);
+    compra();
+    bag.style.display="block";
+    imgprod.src=event.target.src;
+    priceprod.innerHTML=event.target.alt;
+    shopp.style.display="none";
+    }
+}
+
+var bagArray=[];
+
+function Objeto(src,price){
+  this.src=src;
+  this.price=price;
+}
+
+function bolsa(event){
+  var objeto=new Objeto(event.target.src,event.target.alt);
+  bagArray.push(objeto);
+  console.log(bagArray);
+  console.log(bagArray[0].price);
+  console.log(bagArray.length);
+}
+
+carrusel.addEventListener('click',agregar);
+carrusel.addEventListener('click',bolsa);
