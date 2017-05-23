@@ -56,12 +56,12 @@ hr {
 }
 /*Header*/
 #header, header {
-	margin: auto !important;
+	margin: 0 !important;
 	z-index: 5 !important;
 	position: fixed !important;
 	width: 100% !important;
 	top: 0;
-  left:10%;
+  left:10.5%;
 }
 
 .mobile *, header {
@@ -301,26 +301,10 @@ input[type="email"] {
       font-size: 16px;
     }
 
-		#header {
-			left: 6.5%;
-		}
-
-		.title {
-			width: 100%;
-			height: 133px;
-			background-color: #fff;
-			position: fixed;
-			z-index: 4;
-		}
-
-		.sub-top {
-			width: 100%;
-			height: 28px;
-		}
-
     .font-min-size * {
       font-size: 13px;
     }
+
 
     input[type="email"] {
       display: inline-block;
@@ -340,7 +324,6 @@ input[type="email"] {
     .large-uncentered {
     	text-align: left;
     }
-}
 
 .slick-prev, .slick-next {
   z-index: 1;
@@ -350,16 +333,22 @@ input[type="email"] {
   margin-left: 23px;
 }
 
-section#categorias, #carrousel, #dep-most, footer#foot-end{
+section#carrousel, footer.row-end, .nav-dep-most{
+  position: relative;
+  top: 173px;
+}
+
+section#categorias{
   position: relative;
   top: 153px;
+}
 }
 
 .yellow{
   position:fixed;
   bottom:20px;
-  right:5px;
-  z-index: 10;
+  right:0;
+  z-index: 15;
 }
 
 .red{
